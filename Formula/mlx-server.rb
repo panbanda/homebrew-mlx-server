@@ -1,14 +1,14 @@
 class MlxServer < Formula
   desc "Local LLM inference server for Apple Silicon using MLX"
   homepage "https://github.com/panbanda/mlx-server"
-  version "0.1.4"
+  version "0.1.5"
   license "MIT OR Apache-2.0"
 
   depends_on :macos
   depends_on arch: :arm64
 
-  url "https://github.com/panbanda/mlx-server/releases/download/mlx-server-v0.1.4/mlx-server_0.1.4_aarch64-apple-darwin.tar.gz"
-  sha256 "25ec9fda228038a6eb59f5445e5a7483a9203b4173defec1bab41dfd28316164"
+  url "https://github.com/panbanda/mlx-server/releases/download/mlx-server-v0.1.5/mlx-server_0.1.5_aarch64-apple-darwin.tar.gz"
+  sha256 "d8f7ed094c79ee9a14808eae3ccc0e95258eb31cd3fbfcea9cca6c22e6a54f22"
 
   def install
     bin.install "mlx-server"
